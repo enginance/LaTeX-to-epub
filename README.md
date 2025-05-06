@@ -10,19 +10,25 @@
 
 # LaTeX to EPUB Converter
 
-A simple Python script to convert LaTeX `.tex` documents into EPUB format using Pandoc, with support for BibTeX citations and bibliography management. Perfect for academic papers, e-books, and any document that requires smooth transition from LaTeX to EPUB.
+A simple and efficient Python script that converts LaTeX `.tex` documents into EPUB format, leveraging the power of [Pandoc](https://pandoc.org/). This tool supports seamless conversion of academic papers, e-books, and any LaTeX document with full bibliography and citation management using BibTeX. It's perfect for authors, researchers, and anyone looking to publish LaTeX-based content as an EPUB.
 
-## Graphical output
+LaTeX is a popular typesetting system used for creating documents with complex mathematical formulas, academic papers, and technical documentation. However, when it comes to distributing LaTeX content digitally, converting it into a universally readable format like EPUB can be challenging. This script streamlines the process and ensures that citations and bibliographies are handled properly during conversion.
 
-<p align="center">
-    <img width=60% src="https://github.com/enginance/latex-to-epub/blob/main/images/sample_output.png">
-</p>
+## Features
+
+- ✅ **Automatic LaTeX to EPUB conversion** using Pandoc.
+- 📚 **Full support for BibTeX citations and bibliography** using `--citeproc`.
+- 🚀 Easy to use: Just define input/output files and run the script.
+- 🖥 Works for academic papers, research articles, e-books, and any LaTeX-based documents.
+- ⚙️ Simple Python script with minimal dependencies.
 
 ## Installation
 
-Make sure you have Python 3.6+ and [Pandoc](https://pandoc.org/installing.html) installed.
+Ensure you have **Python 3.6+** and [Pandoc](https://pandoc.org/installing.html) installed on your system.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the required dependencies:
+### Install Python dependencies
+
+Use [pip](https://pip.pypa.io/en/stable/) to install the required packages:
 
 ```bash
 pip install subprocess
